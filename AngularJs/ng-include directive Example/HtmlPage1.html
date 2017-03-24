@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html ng-app="myModule">
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="../Scripts/angular.js"></script>
+    <script src="../Scripts/jquery-1.9.1.js"></script>
+    <script src="../Scripts/bootstrap.js"></script>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div ng-controller="myController" class="container" style="margin-top: 20px">
+        <div class="form-group">
+            <label class="control-label">Select View</label>
+            <select class="form-control" ng-model="employeeView">
+                <option value="EmployeeTable.html">Table</option>
+                <option value="EmployeeList.html">List</option>
+                <option value="EmployeeInline.html">Inline</option>
+            </select>
+        </div>
+        <div ng-include="employeeView">
+
+        </div>
+       
+    </div>
+</body>
+</html>

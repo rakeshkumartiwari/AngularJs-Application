@@ -1,0 +1,14 @@
+﻿<table class="table table-hover table-bordered">
+    <tr>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Salary</th>
+        <th>City</th>
+    </tr>
+    <tr ng-repeat="employee in employees">
+        <td>{{employee.Name}}</td>
+        <td>{{employee.Gender}}</td>
+        <td>{{employee.Salary | number:2}}</td>
+        <td>{{employee.City}}</td>
+    </tr>
+</table>

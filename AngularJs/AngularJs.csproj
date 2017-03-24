@@ -88,6 +88,9 @@
     <Content Include="Count Likes and Dislikes\script.js" />
     <Content Include="Count Likes and Dislikes\StyleSheet1.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="ng-include directive Example\EmployeeInline.html" />
+    <Content Include="ng-include directive Example\EmployeeList.html" />
+    <Content Include="ng-include directive Example\EmployeeTable.html" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />
@@ -857,6 +860,9 @@
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="ng-include directive Example\HtmlPage1.html" />
+    <Content Include="ng-include directive Example\script.js" />
+    <Content Include="ng-include directive Example\StyleSheet1.css" />
     <Content Include="Search Filter in AngularJs\HtmlPage1.html" />
     <Content Include="Search Filter in AngularJs\script.js" />
     <Content Include="Search Filter in AngularJs\StyleSheet1.css" />
